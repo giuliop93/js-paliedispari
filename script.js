@@ -3,26 +3,29 @@ var parolaInserita = prompt("inserisci una parola");
 
 
 // Creare una funzione per capire se la parola inserita è palindroma
-function palindroma(parola) {
-    parolaRovesciata
+// function palindroma(parola) {
+   var rovesciata = rovesciaParola(parolaInserita);
+   console.log(rovesciata);
 
-    if (parolaInserita == parolaRovesciata) {
-        return true
-    }
+//     if (parolaInserita == parolaRovesciata) {
+//         return true
+//     }
 
-    else {
-        return false
-    }
-    
-    function rovesciaParola(parola) {
-        var parolaRovesciata = "";
-        for (var i = parola.length -1; i >= 0; i--) {
-          parolaRovesciata += parola[i]
-        }
-        return parolaRovesciata;
-       }
+//     else {
+//         return false
+//     }
        
-}
+// }
+
+function rovesciaParola(parola) {
+    var parolaRovesciata = "";
+    for (var i = parola.length -1; i >= 0; i--) {
+      parolaRovesciata += parola[i]
+    }
+    return parolaRovesciata;
+   }
+
+  
 
 // L’utente sceglie pari o dispari e inserisce un numero da 1 a 5. 
 
