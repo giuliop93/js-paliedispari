@@ -66,7 +66,7 @@ for (var i = 0; i < 6; i++ ) {
         var input = parseInt(prompt("inserisci numeri"))
     }
 
-    if(iinput % 2 != 0){
+    if(input % 2 != 0){
         array.push(inserisciNumeri)
     }
 }
@@ -75,7 +75,7 @@ for (var i = 0; i < 6; i++ ) {
 //ciao 4 3 5 4 6 --> [3,3,5]
 // 'ciao' 'ciao1 1 2 3 5 4 6 --> [1,3,5]
 
-function preendiNummero() {
+function prendiNummero() {
     do {
         var input = parseInt(prompt('inserisci'))
     }
